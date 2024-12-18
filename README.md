@@ -1,8 +1,13 @@
 **安装步骤**
+
 `unzip qhull-master.zip`
+
 `cd qhull-master`
+
 `cmake .`
+
 `make`
+
 `make install`
 
 然后解压gdstk, 使用cmake生成makefile， make install安装
