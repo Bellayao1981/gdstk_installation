@@ -1,4 +1,5 @@
 **步骤**
+因为gdstk库依赖qhull和zlib库，所以我们需要先安装这两个库
 
 安装qhull
 
@@ -18,15 +19,21 @@ cmake .
 make
 make install
 ```
-安装gdstk
+安装clipper
+```
+cd external
+cmake .
+make
+make install
+```
+最后安装gdstk
 ```
 unzip gdstk-main.zip
 cd gdstk-main
 cmake -S . -B build
 cmake --build build --target install
 ```
+
 在c++代码编译时加上库文件路径
 
 `-L/usr/local/lib -lgdstk -lclipper -lqhullcpp -lqhullstatic_r -lz`
-
-注意gdstk解压包中external/中的clipper也需要单独安装
