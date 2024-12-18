@@ -2,15 +2,15 @@
 
 安装qhull
 
-`unzip qhull-master.zip`
+`unzip qhull-master.zip
 
-`cd qhull-master`
+cd qhull-master
 
-`cmake .`
+cmake .
 
-`make`
+make
 
-`make install`
+make install`
 
 安装zlib
 
