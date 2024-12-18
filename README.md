@@ -8,7 +8,7 @@ cd qhull-master
 cmake .
 make
 make install
-
+```
 
 安装zlib
 ```
@@ -17,14 +17,14 @@ cd zlib-1.3.1
 cmake .
 make
 make install
-
+```
 安装gdstk
 ```
 unzip gdstk-main.zip`
 cd gdstk-main`
 cmake -S . -B build`
 cmake --build build --target install`
-
+```
 在c++代码编译时加上
 
 `-L/usr/local/lib -lgdstk -lclipper -lqhullcpp -lqhullstatic_r -lz`
