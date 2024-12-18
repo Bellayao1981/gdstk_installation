@@ -21,6 +21,8 @@ make install
 ```
 安装clipper
 ```
+unzip gdstk-main.zip
+cd gdstk-main
 cd external
 cmake .
 make
@@ -28,8 +30,7 @@ make install
 ```
 最后安装gdstk
 ```
-unzip gdstk-main.zip
-cd gdstk-main
+cd ..
 cmake -S . -B build
 cmake --build build --target install
 ```
