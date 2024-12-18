@@ -11,17 +11,13 @@ make install
 '''
 
 安装zlib
-
-`tar -zxvf zlib-1.3.1.tar.gz`
-
-`cd zlib-1.3.1`
-
-`cmake .`
-
-`make`
-
-`make install`
-
+```
+tar -zxvf zlib-1.3.1.tar.gz
+cd zlib-1.3.1
+cmake .
+make
+make install
+```
 安装gdstk
 
 `unzip gdstk-main.zip`
