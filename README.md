@@ -20,12 +20,12 @@ make install
 ```
 安装gdstk
 ```
-unzip gdstk-main.zip`
-cd gdstk-main`
-cmake -S . -B build`
-cmake --build build --target install`
+unzip gdstk-main.zip
+cd gdstk-main
+cmake -S . -B build
+cmake --build build --target install
 ```
-在c++代码编译时加上
+在c++代码编译时加上库文件路径
 
 `-L/usr/local/lib -lgdstk -lclipper -lqhullcpp -lqhullstatic_r -lz`
 
